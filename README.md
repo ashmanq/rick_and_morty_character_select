@@ -5,6 +5,8 @@ the Rick and Morty show. It communicates with an api to get a list
 of characters and then the search function will search through the
 list to find the first character that best matches your search query.
 
+The app uses the Vue Javascript framework.
+
 ## Project setup
 ```
 npm install
