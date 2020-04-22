@@ -1,0 +1,9 @@
+
+@font-face {
+  font-family: schwifty;
+  src: url('../font/get_schwifty.ttf') format('truetype');
+}
+body {
+
+  background-color: #519c44;
+}

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div>
+  <div class="char-details">
       <h3>{{character.name}}</h3>
       <p>Name: {{character.name}}</p>
       <p>Gender: {{character.gender}}</p>
@@ -18,4 +18,18 @@ export default {
 </script>
 
 <style lang="css" scoped>
+  .char-details {
+    text-align: center;
+  }
+  img {
+    border-radius: 3px;
+    border-width: 8px;
+    border-style: solid;
+    margin-top:30px;
+    border-color: #519c44;
+  }
+
+  p {
+    margin: 10px 0px;
+  }
 </style>
