@@ -5,6 +5,8 @@
       <p>Gender: {{character.gender}}</p>
       <p>Species: {{character.species}}</p>
       <p>Status: {{character.status}}</p>
+      <p>Origin: {{ character.origin.name }}</p>
+      <img v-bind:src="character.image"></img>
   </div>
 </template>
 
