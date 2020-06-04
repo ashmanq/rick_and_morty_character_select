@@ -1,11 +1,15 @@
 # Rick and Morty Character Search App
 
-This is a simple web app that allows you to search for characters from
-the Rick and Morty show. It communicates with an api to get a list
-of characters and then the search function will search through the
-list to find the first character that best matches your search query.
+This app uses the Vue.js JavaScript framework to allow a user to search for characters from the Rick and Mort show.
 
-The app uses the Vue Javascript framework.
+### The objectives of the app were:
+* Demonstrate the ability to create a Vua app with multiple components and templates.
+
+### The app carries out the following:
+* Fetches a list of character information from an online API
+* Allows the user to search for a specific character by typing their name into a box
+* Automatically lists the first result from the search as the user is typing the character name
+* Results show character name, gender, species, status and origin.
 
 ## Project setup
 ```
