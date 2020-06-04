@@ -11,6 +11,8 @@ This app uses the Vue.js JavaScript framework to allow a user to search for char
 * Automatically lists the first result from the search as the user is typing the character name
 * Results show character name, gender, species, status and origin.
 
+---
+
 <p align="center">
   <image src="/screenshots/rickAndMorty.png">
 </p>
